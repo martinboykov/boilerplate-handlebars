@@ -1,0 +1,15 @@
+<div class="component-wrapper">
+  <h3>Im component</h3>
+  {{#for 0 10 1}}
+  {{> elements/element (object title='Title' age=40 arr=(array 1 2 3)) }}
+  {{/for}}
+
+  <div class="slider">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+  <img src="../images/test.png" alt="" srcset="">
+
+</div>
